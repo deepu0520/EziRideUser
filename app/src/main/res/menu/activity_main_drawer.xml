@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_payment"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_payment" />
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_trips" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_coupon" />
+        <item
+            android:id="@+id/passbook"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/passbook"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_wallet"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/scanqr"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/scan_qr_code"
+            android:visible="true" />
+        <item
+            android:id="@+id/settings"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/settings"
+            android:visible="true" />
+        <item
+            android:id="@+id/language"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:icon="@drawable/change_language"
+            android:title="@string/language"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_help"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_help" />
+        <item
+            android:id="@+id/nav_share"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_share" />
+        <item
+            android:id="@+id/nav_invite_referral"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/invite_referral"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_term_condition"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_term_condition" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:actionMenuTextColor="@color/black_text_light"
+            android:title="@string/action_privacy_policy" />
+        <item
+            android:id="@+id/nav_logout"
+            android:actionMenuTextColor="@color/light_grey"
+            android:title="@string/action_logout" />
+    </group>
+</menu>

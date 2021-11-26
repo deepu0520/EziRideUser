@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "266041880456",
+    "firebase_url": "https://ezi-ride-1547793555596.firebaseio.com",
+    "project_id": "ezi-ride-1547793555596",
+    "storage_bucket": "ezi-ride-1547793555596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266041880456:android:cc2ef6dacebb122b",
+        "android_client_info": {
+          "package_name": "com.eziride.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266041880456-ag079d7g9bgthscjlq654th6a8b75u5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eziride.user",
+            "certificate_hash": "c3d6ee2c0ca7d863e5dec166a5605e3054eea4ba"
+          }
+        },
+        {
+          "client_id": "266041880456-g90qgooh3g01gjehg00e2i4bd484tfqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-yq8vpCMfrRTBvbS1jFkWLwFPKzgCN4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266041880456-4m2eeev107t6pjkgdjmner30mmfpagei.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "266041880456-7htrulmvn6uudaldgia73i8nhg3fpk4l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.user.eziride"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

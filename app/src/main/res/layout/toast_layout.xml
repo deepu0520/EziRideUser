@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toast_bg"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/toast_icon"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cash" />
+
+    <TextView
+        android:id="@+id/toast_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/toast_icon"
+        android:text="@string/toast_title"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toast_title"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/toast_icon"
+        android:text="@string/toast_detail"
+        android:textColor="@color/colorTextWhite" />
+
+</RelativeLayout>

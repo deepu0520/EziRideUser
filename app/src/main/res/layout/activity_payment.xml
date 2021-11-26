@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/text_color_white">
+
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:padding="5dp"
+            android:src="@drawable/back_icon" />
+
+
+        <com.eziride.user.Utils.MyBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/payment"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_red"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/add_money"
+            android:layout_width="?actionBarSize"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:src="@drawable/add_money"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/header_layout"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <com.eziride.user.Utils.MyBoldTextView
+            android:id="@+id/lblPaymentMethods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_methods"
+            android:textColor="@color/black_text_color"
+            android:textSize="18sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cash_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/_9sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="@dimen/_8sdp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/money_icon" />
+
+            <com.eziride.user.Utils.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/selected_payment_mode"
+                android:textColor="@color/black_text_color"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_devider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/email_layout"
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
+
+        <com.eziride.user.Utils.MyBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black_text_color"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <com.eziride.user.Utils.MyBoldTextView
+            android:id="@+id/empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="(empty)"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/payment_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+
+        <com.eziride.user.Utils.MyBoldTextView
+            android:id="@+id/addCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_payments"
+            android:textColor="@color/text_red"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

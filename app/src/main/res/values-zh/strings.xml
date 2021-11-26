@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Ezi Ride"><!ENTITY appNameCaps "EZI RIDE"><!ENTITY Provider "Driver"><!ENTITY provider "driver"><!ENTITY Service "Ride"><!ENTITY service "Ride">]>
+<resources>
+
+    <string name="app_name">&appName;</string>
+
+
+    <string name="action_settings">设置</string>
+
+    <!--Nav items-->
+    <string name="action_payment">支付</string>
+    <string name="action_trips">你的旅行</string>
+    <string name="action_coupon">优惠券</string>
+    <string name="action_wallet">钱包</string>
+    <string name="action_help">救命</string>
+    <string name="action_share">分享</string>
+    <string name="action_logout">登出</string>
+
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">输入你的电子邮箱地址</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">欢迎回来，登录继续</string>
+    <string name="enter_your_password">输入您的密码</string>
+    <string name="i_forgot_my_password">忘记密码？</string>
+    <string name="i_need_to_create_an_account">我需要创建一个帐户</string>
+    <string name="apply">应用</string>
+
+
+    <!--Activity Register-->
+    <string name="email">电子邮件</string>
+    <string name="name">名称</string>
+    <string name="phone_number">电话号码</string>
+    <string name="password">密码</string>
+    <string name="first_name">名字</string>
+    <string name="last_name">姓</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">输入要恢复的电子邮件</string>
+
+    <!-- Coupon Fragment-->
+    <string name="enter_the_coupon">输入优惠券代码</string>
+    <string name="add_coupon">添加优惠券</string>
+    <string name="add_coupon_code">输入优惠券代码</string>
+
+
+    <!--Welcome screen-->
+    <string name="sign_in">登入</string>
+    <string name="signup">注册</string>
+
+    <string name="fresh">W e l c o m e</string>
+    <string name="search">S c h e d u l e</string>
+    <string name="bookmark">D r i v e r s</string>
+
+    <string name="introducing">介绍</string>
+    <string name="fresh_description">Services to transport you where you need to go. A lot can happen, on our ride.</string>
+    <string name="search_description">Take a ride whenever and wherever you want. Plan and Schedule for us to pick you up.</string>
+    <string name="bookmark_description">We have the most friendly drivers who will go the extra mile for you.</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="change_password">更改密码</string>
+    <string name="save">保存</string>
+    <string name="update_success">数据已更新</string>
+
+
+    <!-- Home Fragment-->
+    <string name="where_to_go">去哪儿？</string>
+    <string name="extend_trip">延长旅行？</string>
+    <string name="selected_option">经济</string>
+    <string name="selected_payment_mode">现金</string>
+    <string name="select_service">选择服务</string>
+    <string name="change">更改</string>
+    <string name="request_xuber">立即申请</string>
+
+
+    <!--Schedule Layout -->
+    <string name="schedule">Schedule a &Service;</string>
+    <string name="change_date">更改</string>
+    <string name="sample_date">选择一个日期</string>
+    <string name="sample_time">选择一个时间</string>
+    <string name="next">立即申请</string>
+    <string name="different_time">You can\'t schedule in past timings, please choose different time</string>
+    <string name="choose_date_time">请选择日期和时间表</string>
+
+
+    <!--Service List Item -->
+    <string name="no_service">Service not available at this location.</string>
+    <string name="no_route">There is no route, choose different destination</string>
+        <string name="choose_payment">选择您的付款方式</string>
+
+    <!--Approximate -->
+    <string name="approximate">估计票价</string>
+    <string name="eta_time">ETA</string>
+    <string name="include_all">包括所有其他费用</string>
+
+    <!-- Confirm your pickup -->
+    <string name="confirm_your_pickup">确认你的提货</string>
+    <string name="confirm">确认取件</string>
+    <string name="close">关</string>
+    <string name="sample_address">110, StJoseph Chruch, Richards, road Newyork</string>
+    <string name="done">完成</string>
+
+    <!-- Waiting for provider -->
+    <string name="looking_for_ride">Finding &Service;....</string>
+    <string name="cancel_ride">Cancel &service;</string>
+    <string name="share">分享</string>
+    <string name="cancel_ride_alert">Are you sure want to cancel the &service;?</string>
+    <string name="no_providers_found">No one found at the moment to take your &service;, Please try after sometime</string>
+    <string name="no_drivers_found">No drivers available to take your trip</string>
+    <string name="driver_busy">Your &Service; was cancelled by the &Provider;.Please contact us for support</string>
+    <string name="retry">马上重试</string>
+    <string name="try_later">后来</string>
+
+
+    <!--Driver Accepted-->
+    <string name="sample_name">Will Smith</string>
+    <string name="sample_service">BMW</string>
+    <string name="call_btn">呼叫</string>
+    <string name="cancel_trip">取消旅行</string>
+    <string name="cancel">取消</string>
+    <string name="surge_pricing">Due to peak hours, charges will be vary based on availability of providers</string>
+    <string name="pickup_drop">Please enter both pickup and drop locations</string>
+
+
+    <!--Payment Fragment-->
+    <string name="payment">支付</string>
+    <string name="payment_methods">支付方式</string>
+    <string name="payment_methods_past">支付方式</string>
+    <string name="add_payments">添加信用卡或借记卡</string>
+    <string name="card_details">卡详细信息</string>
+    <string name="card_number">信用卡/借记卡号码</string>
+    <string name="cvv">CVV</string>
+    <string name="add">加</string>
+    <string name="enter_card_details">卡详细信息无效</string>
+    <string name="are_you_sure">你确定你要删除？</string>
+    <string name="yes">是</string>
+    <string name="no">没有</string>
+
+
+    <!--Status -->
+    <string name="arrived">&Provider; has arrived at your location</string>
+    <string name="picked_up">you are on &service;</string>
+    <string name="dropped">&Service; has completed</string>
+
+    <!--Your Trips-->
+    <string name="history">历史</string>
+    <string name="comments">评论</string>
+    <string name="no_trips">你过去没有旅行</string>
+    <string name="no_upcoming_trips">你没有即将到来的旅行</string>
+    <string name="your_trips">你的旅行</string>
+    <string name="past">过去</string>
+    <string name="upcoming_trips">即将到来</string>
+    <string name="upcoming">即将到来</string>
+
+
+    <!--Invoice -->
+    <string name="invoice">发票</string>
+    <string name="base_price">基本票价</string>
+    <string name="booking_id">预订ID</string>
+    <string name="extra_price">额外</string>
+    <string name="tax">Tax/GST</string>
+    <string name="wallet_detection">钱包检测</string>
+    <string name="discount_detection">折扣适用</string>
+    <string name="total">总</string>
+    <string name="confirm_payment">确认付款</string>
+    <string name="distance_price">距离票价</string>
+
+
+    <!--Rate provider-->
+    <string name="rate_provider">为您的旅行评分</string>
+    <string name="write_your_comment">写下你的评论</string>
+    <string name="submit">提交</string>
+
+
+    <!-- Source and destination-->
+    <string name="source_location">您的位置</string>
+    <string name="destination_location">去哪儿？</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">连接到网络或退出</string>
+    <string name="change_pwd_dialog">Your password has updated successfully. Please login with your new password.</string>
+    <string name="cencel_request">Are you sure you want to cancel the &service;?</string>
+    <string name="connect_to_wifi">连接到wifi</string>
+    <string name="quit">放弃</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">有些不对劲</string>
+    <string name="something_went_wrong_net">Something went wrong, Please check internet connection</string>
+    <string name="oops_connect_your_internet">该死的！ 连接到您的Internet</string>
+    <string name="server_down">无法访问服务器</string>
+    <string name="please_try_again">请再试一次</string>
+    <string name="please_wait">请耐心等待</string>
+    <string name="email_validation">输入你的电子邮箱地址</string>
+    <string name="not_valid_email">不是有效的电子邮件地址</string>
+    <string name="password_validation">密码不能留空</string>
+    <string name="first_name_empty">需要名字</string>
+    <string name="last_name_empty">需要姓氏</string>
+    <string name="mobile_number_empty">需要手机号码</string>
+    <string name="mobile_number_validation">Mobile number must have numbers between 10 to 20 digits</string>
+    <string name="your_cards">你的卡</string>
+    <string name="enter_details_register">输入您的详细信息进行注册</string>
+    <string name="fb_cancel">Facebook login cancelled</string>
+    <string name="fb_error">Facebook login failed</string>
+    <string name="google_login">Google login failed</string>
+    <string name="social_cancel">社交登录已被取消</string>
+    <string name="registration_failed">注册已取消</string>
+
+
+    <string name="add_money_using">Add money using</string>
+    <string name="add_money">加钱</string>
+    <!--Coupon Activity-->
+    <string name="not_vaild_coupon">优惠券无效或可能已过期</string>
+    <string name="coupon_added">优惠券成功申请</string>
+    <string name="add_coupon_txt">添加优惠券</string>
+    <string name="added_coupon">优惠券由您申请</string>
+    <string name="already_in_use_coupon">优惠券已被您使用</string>
+    <string name="expired_coupon">对不起，优惠券已过期</string>
+    <string name="off">关闭</string>
+    <string name="the_applied_coupon">The coupon code applied is</string>
+    <string name="valid_until">有效期至</string>
+    <string name="enter_the_code">输入优惠券代码</string>
+
+
+    <!--Wallet Activity-->
+    <string name="wallet_balance">Your wallet amount is</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">更改密码</string>
+    <string name="current_password">输入旧密码</string>
+    <string name="new_password">输入新密码</string>
+    <string name="confirm_password">确认新密码</string>
+    <string name="please_enter_current_pass">请输入当前密码</string>
+    <string name="please_enter_new_pass">请输入新密码</string>
+    <string name="please_enter_confirm_pass">请输入确认密码</string>
+    <string name="different_passwords">密码不匹配</string>
+    <string name="commision">服务费</string>
+    <string name="request_cancel">您已取消该请求</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>家</item>
+        <item>相片</item>
+        <item>电影</item>
+        <item>通知</item>
+        <item>设置</item>
+    </string-array>
+
+    <string name="valid_image">找不到图像</string>
+    <string name="otp_validation">Enter OTP field is required</string>
+    <string name="inncorrect_otp">Incorrect OTP</string>
+    <string name="confirm_password_validation">密码有误</string>
+    <string name="reset_password">重设密码</string>
+    <string name="note">Note : Please enter the otp send to your registered email address</string>
+    <string name="secrete_code">Enter OTP</string>
+    <string name="connect_with_social_media">或者与社交联系</string>
+    <string name="logout_alert">你确定要退出吗？</string>
+    <string name="distance_travelled">旅行距离</string>
+    <string name="time_taken">所用的时间</string>
+    <string name="extend_trip_alert">Do you want to extend the trip with the selected location?</string>
+    <string name="choose_social">选择一个帐户</string>
+    <string name="facebook_name">Facebook</string>
+    <string name="google_name">Google</string>
+    <string name="schdule_accept">您的请求已由司机回答</string>
+    <string name="no_comments">没有评论</string>
+    <string name="pin_location">设置引脚位置</string>
+    <string name="home_location">家</string>
+    <string name="delete">删除</string>
+    <string name="favorites">最爱</string>
+    <string name="language">改变语言</string>
+    <string name="add_home_location">添加主页</string>
+    <string name="work_location">工作</string>
+    <string name="add_work_location">添加工作</string>
+    <string name="save_location">保存的地方</string>
+    <string name="type">模型</string>
+    <string name="emaergeny_call">Are you sure want to proceed with Emergency call?</string>
+    <string name="user_no_mobile">没有手机号码</string>
+    <string name="profile">轮廓</string>
+    <string name="reason_to_cancel">取消原因</string>
+    <string name="reason">删除邮件</string>
+
+    <!--Activity Help-->
+    <string name="help_msg">我们的团队成员很快就会联系！</string>
+    <string name="help_title">&appNameCaps; Help</string>
+    <string name="schedule_request">时间表</string>
+    <string name="surge_pricing_title">由于需求高，价格可能会有所不同</string>
+    <string name="request_now">现在骑</string>
+    <string name="help">救命</string>
+    <string name="book_name">Booking ID</string>
+    <string name="password_size">Password size must be atleast 6</string>
+    <string name="sorry_for_inconvinent">Sorry for inconvenient,Our assisants are busy right now</string>
+    <string name="email_exist">电子邮件已被删除</string>
+    <string name="first_name_no_number">名字不接受数字</string>
+    <string name="last_name_no_number">姓氏不接受数字</string>
+    <string name="ok">好</string>
+    <string name="use_wallet_amount">使用钱包金额</string>
+    <string name="arriving">&Provider; accepted your request.</string>
+    <string name="view_invoice">查看收据</string>
+    <string name="payment_set_as_card">付款方式更改为卡</string>
+    <string name="payment_set_as_cash">付款方式改为现金</string>
+    <string name="walletHistory">钱包历史</string>
+    <string name="couponHistory">优惠券历史</string>
+    <string name="passbook">存折</string>
+    <string name="settings">设置</string>
+    <string name="no_wallet_history">No wallet history available!</string>
+    <string name="no_coupon_history">没有优惠券历史！</string>
+    <string name="new_version_available">新版本可用</string>
+    <string name="update_to_continue">请将您的应用更新到新版本。</string>
+    <string name="update">更新</string>
+    <string name="no_thanks">不用了，谢谢</string>
+    <string name="new_password_validation">新密码不应与旧密码相同。</string>
+    <string name="password_validation1">Password must contains minimum 8 characters, maximum 16 characters</string>
+    <string name="password_validation2">Password must contains minimum 8 characters, maximum 16 characters and atleast 1 Uppercase,
+         1 Lowercase, 1 Number and 1 Special Character</string>
+    <string name="add_amount">添加金额</string>
+    <string name="enter_the_amount">输入金额</string>
+    <string name="amount_alert">请输入金额</string>
+    <string name="add_money_to_wallet">把钱加到钱包里</string>
+    <string name="version">版</string>
+    <string name="source_dest_not_same">源地址和目标地址不应该相同！</string>
+    <string name="language_update">更新语言...请稍候</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_ride">Get moving with &appName; </string>
+    <string name="enter_your_mail_id">输入你的电子邮箱地址</string>
+    <string name="enter_username">请输入您的用户名</string>
+    <string name="enter_your_user_name">输入你的用户名</string>
+    <string name="or_connect_with_social_media">或使用社交帐户进行连接</string>
+    <string name="enter_access_key">请输入您的访问密钥</string>
+    <string name="fetching_server">Fetching from server... Please wait...</string>
+    <string name="enter_coupon">输入优惠券</string>
+    <string name="demo_expired">Your demo has been expired. Please contact our ride team for more details.</string>
+
+    <string name="timed_out">时间到！</string>
+    <string name="delete_loc">你确定要删除这个位置？</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="confirm_password_mismatched">密码不匹配！</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="female">女</string>
+    <string name="next_">下一个</string>
+    <string name="create_account">创建一个帐户</string>
+    <string name="email_address">电子邮件地址</string>
+    <string name="proceed">继续</string>
+    <string name="enter_the_password">输入密码</string>
+
+    <!--<string name="past_trips">Past Trips</string>-->
+
+    <string name="past_trips">历史</string>
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="cancellation_charge">取消费用</string>
+    <string name="action_term_condition">条款与协议</string>
+    <string name="action_privacy_policy">隐私政策</string>
+    <string name="term_condition_validation">请同意我们的条款和条件和隐私政策</string>
+    <string name="no_network">手机移动网络不能用！</string>
+    <string name="check_internet">检查你的互联网</string>
+    <string name="setting">Setting</string>
+    <string name="enter_amout">输入大于0的金额</string>
+    <string name="transaction_resopnse">付款交易回复</string>
+    <string name="payment_failed">付款交易失败</string>
+    <string name="add_card_detail">添加卡详细信息</string>
+    <string name="grant_permission">请授予使用此应用程序的许可！</string>
+    <string name="choose_pickup_location">请选择取件地点</string>
+    <string name="select_picture">选择图片</string>
+    <string name="permission_necessary">必要的许可</string>
+    <string name="camera_permission_necessary">相机许可是必要的</string>
+    <string name="external_storage_permisson">外部存储许可是必要的</string>
+    <string name="enable_external_storage">外部存储许可是必要的</string>
+    <string name="enable_camera_permission">从应用设置启用相机权限，相机权限是必要的</string>
+    <string name="hey_check_out">嘿看看这个应用程序！</string>
+    <string name="my_referal_code">我的推荐代码是</string>
+    <string name="app_not_found">找不到应用程序！</string>
+    <string name="logout_user">退出用户！</string>
+    <string name="all_notification_mark_read">所有通知都标记为已读！</string>
+    <string name="clear_all_notification">清除所有通知</string>
+    <string name="shared_app_not_found">共享应用程序未找到！</string>
+    <string name="give_review">请提交审核</string>
+    <string name="give_the_free_ride_by_reffering_the_invite_code_worth_" translatable="false">通过参考邀请码来免费乘车</string>
+    <string name="get_address_error">无法获得地址！请再试一次</string>
+    <string name="select_time">选择时间</string>
+    <string name="select_destination">选择目的地</string>
+    <string name="fare_est_dis">票价估计免责声明</string>
+    <string name="fare_est_detail">显示的数量仅为估计值，根据距离，拾取时间，路线和车型计算，并包括消费税。 该金额不包括与任何特定付款类型，任何适用的额外费用，通行费，机场费用和/或旅行时间相关的任何费用。 实际票价可能因所选路线而异。</string>
+    <string name="location_permission_needed">需要位置许可</string>
+    <string name="location_permission_desc">此应用需要“位置”权限，请接受使用位置功能</string>
+    <string name="gps_message">您的设备已禁用GPS。 启用它？</string>
+    <string name="enable_gps">启用GPS</string>
+    <string name="no_cash_accept_message">现金付款不可用，请将付款方式更改为卡</string>
+    <string name="no_cash_payment_txt">现金付款不可用</string>
+    <string name="waiting_for_payment">等待付款</string>
+    <string name="toast_title">卡付款失败</string>
+    <string name="toast_detail">卡付款失败。 请继续现金支付。</string>
+
+</resources>

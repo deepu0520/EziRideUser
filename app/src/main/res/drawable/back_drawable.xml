@@ -1,0 +1,5 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/back_icon"
+    android:autoMirrored="true"
+    android:tint="@color/text_color_black_light">
+</bitmap>
