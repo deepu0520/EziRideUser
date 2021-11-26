@@ -77,7 +77,7 @@ public class Utilities {
 
     private static ProgressDialog mProgressDialog;
 
-    public String getCompleteAddressString(Context context, double LATITUDE, double LONGITUDE) {
+    public String getCompleteAddressStrings(Context context, double LATITUDE, double LONGITUDE) {
         String strAdd = "";
         Geocoder geocoder = new Geocoder(context, Locale.getDefault());
         try {
